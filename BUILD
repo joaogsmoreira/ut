@@ -1,7 +1,7 @@
 cc_test(
-  name = "matrix_mult",
+  name = "unit_tests",
   size = "small",
-  srcs = ["matrix_mult.cpp"],
+  srcs = ["test_matrix.cpp"],
   deps = ["@com_google_googletest//:gtest_main",
         "//math:math",
         "//time:time"],
